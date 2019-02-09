@@ -3,7 +3,11 @@
 
 
 // Custom Media Query Variables
+$blue: blue;
 
+body {
+  background-color: $blue;
+}
 
 button.voice, button.stopSpeak{
   position: absolute;
@@ -17,7 +21,7 @@ button.voice, button.stopSpeak{
 }
 
 button.voice:hover, button.stopSpeak:hover{
- color: red;
+ color: rgb(45, 176, 185);
  border-color: red;
 }
 
