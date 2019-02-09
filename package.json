@@ -1,0 +1,45 @@
+{
+  "name": "speak_text",
+  "version": "1.0.0",
+  "description": "speak text on site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4KITLER/speakText.git"
+  },
+  "author": "Salimov Rinat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4KITLER/speakText/issues"
+  },
+  "homepage": "https://github.com/4KITLER/speakText#readme",
+  "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.29.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "allowForLoopAfterthoughts": true
+    }
+  },
+  "dependencies": {
+    "gulp-css-scss": "^0.1.0"
+  }
+}

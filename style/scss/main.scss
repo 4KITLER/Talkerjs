@@ -1,0 +1,27 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+button.voice, button.stopSpeak{
+  position: absolute;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+ 
+}
+
+button.voice:hover, button.stopSpeak:hover{
+ color: red;
+ border-color: red;
+}
+
+button.stopSpeak{
+  display: none;
+}
+
